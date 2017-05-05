@@ -1,0 +1,77 @@
+
+
+.main .container{
+  padding: 0 12rem;
+}
+
+.construction-photo{
+    width: 100%;
+    height: 30rem;
+}
+
+.main{
+  padding: 2rem;
+}
+
+
+.navbar-brand img{
+  height: 3.5rem;
+}
+
+.navbar-default{
+  z-index: 1000;
+  height: 5rem;
+}
+
+.navbar .nav li{
+  margin: .875rem;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.navbar .nav li a{
+  color: #000;
+}
+
+.navbar .nav li a:hover{
+  color: #fff;
+  border-radius: 3px;
+  background-color: #0000FF;
+  transition: 700ms;
+}
+
+
+/***** Footer ******/
+
+
+footer{
+  background-color: #000;
+  color: #FFF;
+  z-index: 1000;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.footer h5{
+  display: inline-block;
+}
+
+.follow-us a{
+  padding: 0 1rem;
+}
+
+.footer img{
+  max-width: 2rem;
+}
+
+.footer i:hover{
+  color: #0000FF;
+  transition: 800ms;
+}

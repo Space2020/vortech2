@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(34,34,114);
+  background-color: rgb(141,161,241);
 }
 
 /*** Navbar Section ***/
@@ -37,7 +37,7 @@ body{
 /*** Jumbotron Section ****/
 
 .jumbotron{
-  background-color: rgb(34,34,114);
+  background-color: rgb(141,161,241);
   color: #fff;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
@@ -61,6 +61,7 @@ body{
 
 .main h2{
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main ul{
@@ -74,6 +75,36 @@ body{
 
 
 
+/** Areas Covered Section **/
+
+
+.areas-covered{
+  padding: 2rem;
+}
+
+.areas-covered ul{
+  padding-left: 0;
+}
+
+.areas-covered li{
+  display: inline-block;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.areas-covered h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+/** button **/
+button{
+  background-color: #0000FF;
+  border: #0000ff;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #000;
+}
 
 /***** Footer ******/
 
@@ -108,7 +139,7 @@ footer{
   transition: 800ms;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 667px){
   .navbar .nav li{
     padding-top: 3rem;
     font-size: 1rem;

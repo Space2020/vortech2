@@ -106,7 +106,7 @@ button{
   border: #0000ff;
   color: #fff;
   border-radius: 2px;
-  box-shadow: 2px 2px 2px #000;
+  box-shadow: 4px 4px 4px #000;
   margin-left: 2.5rem;
 }
 
@@ -149,6 +149,27 @@ button{
 }
 
 
+/** 3rd Page **/
+/** Projects Page **/
+
+.image-gallery{
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.image-gallery .thumbnails{
+  padding: 4rem 0;
+}
+
+.image-gallery img{
+  width: 50%;
+  cursor: pointer;
+}
+
+.image-gallery img:hover{
+  width: 100%;
+  transition-delay: 500ms;
+}
 
 /***** Footer ******/
 

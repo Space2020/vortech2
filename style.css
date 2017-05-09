@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: #e2e2e2;
+}
 
 
 
@@ -51,7 +53,7 @@
 
 .jumbotron{
   margin: 8rem 0 5rem 0;
-  background-color: white;
+  background-color: #e2e2e2;
   color: #000;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
@@ -85,6 +87,10 @@
   color: #000;
   padding: 4rem 0;
   font-family: 'Work Sans', sans-serif;
+}
+
+.main img{
+  box-shadow: 10px 10px 10px #0000ff;
 }
 
 .main h2{
@@ -139,6 +145,7 @@
 .areas-covered h3{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  color: #0000ff;
 }
 
 /** button **/
@@ -161,10 +168,29 @@ button:hover{
   box-shadow: 4px 4px 4px #000;
 }
 
+/* Mission Section */
 
+.mission{
+  margin: 2rem 0;
+}
 
+.blue{
+  background-color: rgba(0,0,255,.7);
+  border-radius: 4px;
+  color: #fff;
+  padding: 2rem;
+}
 
+.mission p{
+  font-size: 1.7rem;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 2;
+  margin: 2rem;
+}
 
+span img{
+  height: 4rem;
+}
 
 /** 2nd Page **/
 /** About Us Page **/

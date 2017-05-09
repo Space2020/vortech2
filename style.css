@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(67, 67, 114);
+
 }
 
 /*** Navbar Section ***/
@@ -9,7 +9,7 @@ body{
   height: 6rem;
 }
 
-.navbar-default{
+.navbar-inverse{
   max-height: 19rem;
   min-height: 8rem;
 }
@@ -22,11 +22,12 @@ body{
 }
 
 .navbar .nav li a{
-  color: #000;
+  color: #fff;
+  padding-bottom: 0;
 }
 
 .navbar .nav li a:hover{
-  color: #000;
+  color: #fff;
   margin: 0;
   border-bottom: 4px solid #0000ff;
 }
@@ -36,8 +37,8 @@ body{
 /*** Jumbotron Section ****/
 
 .jumbotron{
-  background-color: rgb(67, 67, 114);
-  color: #fff;
+  background-color: white;
+  color: #000;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
@@ -53,7 +54,7 @@ body{
 }
 
 .main{
-  color: #FFF;
+  color: #000;
   padding: 4rem 0;
   font-family: 'Work Sans', sans-serif;
 }
@@ -61,10 +62,16 @@ body{
 .main h2{
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: .20rem;
+  font-size: 3.5rem;
+}
+
+.main p{
+  font-size: 1.7rem;
 }
 
 .main ul{
-  padding-left: 0;
+  padding: 1rem 0;
 }
 
 .main ul li{
@@ -72,6 +79,9 @@ body{
   padding: 0.25rem 0;
 }
 
+.left{
+  background-color: rgba(0,0,255, .3);
+}
 
 
 /** Areas Covered Section **/
@@ -79,7 +89,7 @@ body{
 
 .areas-covered{
   padding: 2rem 0 5rem 0;
-  color: #fff;
+  color: #000;
 }
 
 .areas-covered ul{
@@ -99,17 +109,22 @@ body{
 
 /** button **/
 button{
-  background-color: #0000FF;
-  font-size: 1.5rem;
+  background-color: #fff;
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 1.5rem 2.5rem;
   border: #0000ff;
-  color: #fff;
+  color: #0000ff;
   border-radius: 2px;
-  box-shadow: 4px 4px 4px #000;
   margin-left: 2.5rem;
 }
 
+button:hover{
+  background-color: #0000ff;
+  color: #fff;
+  transition-duration: 700ms;
+  box-shadow: 4px 4px 4px #000;
+}
 
 
 
@@ -131,11 +146,20 @@ button{
 
 .owners p{
   font-family: 'Work Sans', sans-serif;
+  line-height: 1.7;
 }
 
 .separate{
   padding: 2rem 0;
 }
+
+/*.about-us{
+  background-image: url("./resources/Vortech-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: soft-light;
+  background-size: 20rem 15rem;
+}*/
 
 .about-us h3{
   font-family: 'Roboto', sans-serif;
@@ -146,6 +170,7 @@ button{
 .about-us p{
   color: #fff;
   font-family: 'Work Sans', sans-serif;
+  line-height: 1.7;
 }
 
 

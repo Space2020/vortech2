@@ -18,6 +18,7 @@
   /*max-height: 19rem;*/
   min-height: 10rem;
   width: 100%;
+  background: #000;
 }
 
 .navbar-right{
@@ -39,23 +40,17 @@
 .navbar .nav li a:hover{
   color: #fff;
   margin: 0;
-  border-bottom: 4px solid #0000ff;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .active{
-  border-bottom: 4px solid #0000ff;
+  border-bottom: 1px solid #e2e2e2;
 }
-
-.active:hover{
-  border-bottom: none;
-  font-weight: bold;
-}
-
 
 /*** Jumbotron Section ****/
 
 .jumbotron{
-  margin-top: 15rem;
+  margin: 8rem 0 5rem 0;
   background-color: white;
   color: #000;
   font-family: 'Work Sans', sans-serif;
@@ -66,15 +61,15 @@
 /* Services Section */
 
 .services{
-  background-color: rgba(0,0,255, .7);
-  min-height: 8rem;
+  border-top: 2px solid #807F81;
 }
 
 .services h2{
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
+  color: #0000ff;
 }
 
 
@@ -97,6 +92,7 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: .20rem;
   font-size: 3.5rem;
+  color: #0000ff;
 }
 
 .main p{
@@ -113,7 +109,12 @@
 }
 
 .left{
-  background-color: rgba(0,0,255, .3);
+  border-bottom: 2px solid #807F81;
+  border-top: 2px solid #807F81;
+}
+
+.right {
+  border-bottom: 2px solid #807F81;
 }
 
 
@@ -121,7 +122,7 @@
 
 
 .areas-covered{
-  padding: 2rem 0 5rem 0;
+  margin: 4rem 0 6rem 0;
   color: #000;
 }
 
@@ -150,7 +151,7 @@ button{
   color: #0000ff;
   border: 1px solid #0000ff;
   border-radius: 2px;
-  margin-left: 2.5rem;
+  margin-top: 2rem;
 }
 
 button:hover{
@@ -187,13 +188,6 @@ button:hover{
   padding: 2rem 0;
 }
 
-/*.about-us{
-  background-image: url("./resources/Vortech-logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: soft-light;
-  background-size: 20rem 15rem;
-}*/
 
 .about-us h3{
   font-family: 'Roboto', sans-serif;
@@ -265,13 +259,20 @@ footer{
     padding-top: 3rem;
     margin: 0;
   }
-}
+  .jumbotron{
+    margin-top: 15rem;
+  }
 
+  .nav li a{
+    font-size: 1.4rem;
+    padding: 0;
+  }
 
+  .services h2{
+    font-size: 3.5rem;
+  }
 
-@media only screen and (max-width: 341px){
-
-  .navbar .nav li{
-    font-size: 1rem;
+  .main h2{
+    font-size: 2.5rem;
   }
 }

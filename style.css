@@ -1,17 +1,27 @@
 
-body{
 
-}
+
+
 
 /*** Navbar Section ***/
 
+
+.navbar {
+    border-radius: 0;
+  }
+
 .navbar-brand img{
-  height: 6rem;
+  height: 7rem;
 }
 
 .navbar-inverse{
-  max-height: 19rem;
-  min-height: 8rem;
+  /*max-height: 19rem;*/
+  min-height: 10rem;
+  width: 100%;
+}
+
+.navbar-right{
+  margin-top: 3rem;
 }
 
 .navbar .nav li{
@@ -32,17 +42,40 @@ body{
   border-bottom: 4px solid #0000ff;
 }
 
+.active{
+  border-bottom: 4px solid #0000ff;
+}
+
+.active:hover{
+  border-bottom: none;
+  font-weight: bold;
+}
 
 
 /*** Jumbotron Section ****/
 
 .jumbotron{
+  margin-top: 15rem;
   background-color: white;
   color: #000;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
+
+/* Services Section */
+
+.services{
+  background-color: rgba(0,0,255, .7);
+  min-height: 8rem;
+}
+
+.services h2{
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
 
 
 /* Main Section */
@@ -115,6 +148,7 @@ button{
   padding: 1.5rem 2.5rem;
   border: #0000ff;
   color: #0000ff;
+  border: 1px solid #0000ff;
   border-radius: 2px;
   margin-left: 2.5rem;
 }
@@ -135,7 +169,7 @@ button:hover{
 /** About Us Page **/
 
 .owners{
-  color: #fff;
+  color: #000;
   padding: 2rem 0;
 }
 
@@ -163,12 +197,12 @@ button:hover{
 
 .about-us h3{
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 
 .about-us p{
-  color: #fff;
+  color: #000;
   font-family: 'Work Sans', sans-serif;
   line-height: 1.7;
 }
@@ -200,8 +234,8 @@ button:hover{
 
 
 footer{
-  background-color: #F8F8F8;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 .footer{
@@ -227,11 +261,13 @@ footer{
 /** Media Queries **/
 
 @media only screen and (max-width: 768px){
-  .navbar .nav li{
+  .nav li{
     padding-top: 3rem;
     margin: 0;
   }
 }
+
+
 
 @media only screen and (max-width: 341px){
 

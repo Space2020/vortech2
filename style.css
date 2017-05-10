@@ -332,6 +332,14 @@ footer{
 
 /** Media Queries **/
 
+@media only screen and (min-width: 2000px){
+  .contact-info{
+    margin: 35rem 0 14rem 0;
+  }
+}
+
+
+
 @media only screen and (max-width: 768px){
   .nav li{
     padding-top: 3rem;

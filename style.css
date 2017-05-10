@@ -42,7 +42,7 @@ body{
 .navbar .nav li a:hover{
   color: #fff;
   margin: 0;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 2px solid #0000ff;
 }
 
 .active{
@@ -149,7 +149,7 @@ body{
 }
 
 /** button **/
-button{
+.areas-covered button{
   background-color: #fff;
   font-size: 1.8rem;
   font-weight: bold;
@@ -250,6 +250,42 @@ span img{
   transition-delay: 500ms;
 }
 
+
+/** 4th Page**/
+/**Contact Us **/
+
+
+.contact-info{
+  margin: 16.5rem 0;
+  text-align: center;
+}
+
+.contact-info button{
+  padding: 1rem 7rem;
+}
+
+.ind-contact{
+  padding-top: 5rem;
+}
+
+/* E Mail Buttons */
+
+.contact-info button{
+  margin: 2rem 0;
+}
+
+.fa-envelope{
+  color: #0000ff;
+  font-size: 2rem;
+}
+
+.contact-info button:hover{
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #0000ff;
+  border-radius: 2px;
+}
+
+
 /***** Footer ******/
 
 
@@ -269,6 +305,12 @@ footer{
 
 .footer img{
   max-width: 3rem;
+}
+
+.fa-phone h5{
+  font-size: 1.7rem;
+  padding-left: .50rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer i:hover{
@@ -301,4 +343,13 @@ footer{
   .main h2{
     font-size: 2.5rem;
   }
+
+  .contact-info{
+    margin: 20rem 0 14rem 0;
+  }
+
+  .contact-info button{
+    margin: 1rem 0;
+  }
+
 }

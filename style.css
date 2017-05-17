@@ -1,7 +1,5 @@
 
-body{
-  background-color: #e2e2e2;
-}
+
 
 
 
@@ -13,19 +11,16 @@ body{
   }
 
 .navbar-brand img{
-  height: 7rem;
+  height: 5rem;
 }
 
 .navbar-inverse{
   /*max-height: 19rem;*/
-  min-height: 10rem;
+  min-height: 7rem;
   width: 100%;
   background: #000;
 }
 
-.navbar-right{
-  margin-top: 3rem;
-}
 
 .navbar .nav li{
   margin: .875rem;
@@ -45,18 +40,22 @@ body{
   border-bottom: 2px solid #0000ff;
 }
 
-.active{
-  border-bottom: 1px solid #e2e2e2;
+li .active{
+  color: #0000FF;
 }
 
 /*** Jumbotron Section ****/
 
 .jumbotron{
-  margin: 8rem 0 5rem 0;
-  background-color: #e2e2e2;
+  margin: 8rem 0 1rem 0;
+  background-color: #fff;
   color: #000;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
+}
+
+.jumbotron img{
+  width: 20rem;
 }
 
 
@@ -64,6 +63,7 @@ body{
 
 .services{
   border-top: 2px solid #807F81;
+  background-color: #e2e2e2;
 }
 
 .services h2{
@@ -79,8 +79,8 @@ body{
 
 
 .construction-photo{
-    width: 80%;
-    max-height: 30rem;
+  width: 80%;
+  max-height: 30rem;
 }
 
 .main{
@@ -90,7 +90,10 @@ body{
 }
 
 .main img{
-  box-shadow: 10px 10px 10px #0000ff;
+  border: 2px solid #0000FF;
+  border-radius: 4px;
+  max-width: 40rem;
+  min-height: 30rem;
 }
 
 .main h2{
@@ -115,21 +118,24 @@ body{
 }
 
 .left{
-  border-bottom: 2px solid #807F81;
-  border-top: 2px solid #807F81;
+  border-bottom: 1px solid #807F81;
+  border-top: 1px solid #807F81;
 }
 
 .right {
-  border-bottom: 2px solid #807F81;
+  border-bottom: 1px solid #807F81;
+  background-color: #e2e2e2;
 }
-
 
 /** Areas Covered Section **/
 
 
 .areas-covered{
-  margin: 4rem 0 6rem 0;
+  margin: 0 0 6rem 0;
   color: #000;
+  font-weight: bold;
+  background-color: #e2e2e2;
+  padding: 3rem 0;
 }
 
 .areas-covered ul{
@@ -171,11 +177,16 @@ button:hover{
 /* Mission Section */
 
 .mission{
-  margin: 2rem 0;
+  margin-top: -6rem;
+  padding: 5rem 0;
+  background-image: url("./resources/waha4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .blue{
-  background-color: rgba(0,0,255,.7);
+  background-color: rgba(0,0,255,.6);
   border-radius: 4px;
   color: #fff;
   padding: 2rem;
@@ -241,23 +252,21 @@ span img{
 /** 3rd Page **/
 /** Projects Page **/
 
-.image-gallery{
-  color: #000;
-  font-family: 'Work Sans', sans-serif;
+.slider{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 15rem 0 15rem 0.725rem;
 }
 
-.image-gallery .thumbnails{
-  padding: 4rem 0;
+.slide img{
+  width: 250px;
+  height: 200px;
 }
 
-.image-gallery img{
-  width: 50%;
-  cursor: pointer;
-}
-
-.image-gallery img:hover{
-  width: 100%;
-  transition-delay: 500ms;
+.slide img:hover{
+  width: 400px;
+  height: 350px;
 }
 
 
@@ -280,7 +289,7 @@ span img{
 
 .contact-info button{
   padding: 1rem 7rem;
-  background-color: #0000ff;
+  background-color: #fff;
   border: 1px solid #0000ff;
 }
 
@@ -296,8 +305,18 @@ span img{
   margin-bottom: 15rem;
 }
 
+.address-info{
+  margin-bottom: 4rem;
+}
+
 .address h4{
   font-weight: bold;
+}
+
+iframe{
+  width: 70%;
+  margin: 10rem 0;
+
 }
 
 /* E Mail Buttons */

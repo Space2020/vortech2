@@ -425,4 +425,16 @@ footer{
     margin: 1rem 0;
   }
 
+  .mission p{
+    line-height: 1.2;
+}
+.main img{
+  min-height: 20rem;
+}
+
+.mission{
+  padding: 8rem 0;
+}
+
+
 }

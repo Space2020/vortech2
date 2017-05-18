@@ -113,7 +113,7 @@ li .active{
 }
 
 .main ul li{
-  list-style: square inside url("./resources/favicon.ico");
+  list-style: square inside url("favicon.ico");
   padding: 0.25rem 0;
 }
 

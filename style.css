@@ -179,7 +179,7 @@ button:hover{
 .mission{
   margin-top: -6rem;
   padding: 5rem 0;
-  background-image: url("./resources/waha4.png");
+  background-image: url("./resources/Waha4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,8 +315,13 @@ span img{
 
 iframe{
   width: 70%;
-  margin: 10rem 0;
+  display: block;
+  margin: 0 auto;
 
+}
+
+.frame{
+  margin: 2rem 1rem;
 }
 
 /* E Mail Buttons */

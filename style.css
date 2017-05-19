@@ -294,7 +294,10 @@ span img{
 }
 
 .ind-contact{
-  /*padding-top: 5rem;*/
+  border: 2px solid #0000ff;
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin: 1rem;
 }
 
 .address{

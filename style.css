@@ -15,7 +15,6 @@
 }
 
 .navbar-inverse{
-  /*max-height: 19rem;*/
   min-height: 7rem;
   width: 100%;
   background: #000;
@@ -24,7 +23,6 @@
 
 .navbar .nav li{
   margin: .875rem;
-  letter-spacing: 0.03rem;
   font-weight: 400;
   display: inline-block;
 }
@@ -37,7 +35,7 @@
 .navbar .nav li a:hover{
   color: #fff;
   margin: 0;
-  border-bottom: 2px solid #0000ff;
+  border-bottom: 1px solid #0000ff;
 }
 
 li .active{
@@ -69,7 +67,7 @@ li .active{
 .services h2{
   font-family: 'Work Sans', sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: bold;
   color: #0000ff;
 }
@@ -100,7 +98,7 @@ li .active{
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .20rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: #0000ff;
 }
 
@@ -259,14 +257,19 @@ span img{
   margin: 15rem 0 15rem 0.725rem;
 }
 
-.slide img{
-  width: 250px;
-  height: 200px;
+.slide{
+  padding: 3rem 0;
 }
 
-.slide img:hover{
-  width: 400px;
-  height: 350px;
+.slide h4{
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.slide img{
+  width: 40rem;
+  height: 30rem;
+  margin: 0.50rem 0;
 }
 
 
@@ -316,16 +319,25 @@ span img{
   font-weight: bold;
 }
 
+
+.iframe a{
+  margin-top: 5rem;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  background-color: rgba(0,0,255,.6);
+}
+
 iframe{
   width: 70%;
   display: block;
-  margin: 0 auto;
-
+  margin: 2rem auto 8rem auto;
+  min-height: 40rem;
+  min-width: 33rem;
+  pointer-events: none;
 }
 
-.frame{
-  margin: 2rem 1rem;
-}
 
 /* E Mail Buttons */
 
@@ -359,35 +371,24 @@ footer{
   padding: 2rem 0;
 }
 
-/*#footer{
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  color: #FFF;
-  width: 100%;
-}*/
-
 .footer h5{
   display: inline-block;
 }
 
 .footer img{
-  max-width: 3rem;
+  max-width: 4rem;
 }
 
 .fa-phone h5{
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding-left: .50rem;
   font-family: 'Roboto', sans-serif;
 }
 
-.footer i:hover{
-  color: #0000FF;
+.fa-twitter-square:hover{
+  color: #0000ff;
   transition: 800ms;
 }
-
-
 
 /** Media Queries **/
 
@@ -436,6 +437,7 @@ footer{
   .mission p{
     line-height: 1.2;
 }
+
 .main img{
   min-height: 20rem;
 }
@@ -444,5 +446,8 @@ footer{
   padding: 8rem 0;
 }
 
-
+.slide img{
+  width: 35rem;
+  height: 25rem;
+  }
 }

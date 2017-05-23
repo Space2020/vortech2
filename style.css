@@ -268,16 +268,12 @@ span img{
   font-family: 'Work Sans', sans-serif;
 }
 
-.gallery-description .container{
-}
-
-.gallery-description h6{
+.gallery-description h5{
   padding-top: 3rem;
   text-align: center;
 }
 
 .gallery{
-  /*background-color: rgba(0,0,255,.3);*/
   background-color: #807f81;
 }
 
@@ -491,4 +487,8 @@ footer{
 
   .gallery-description{
     margin-top: 9.5rem;
+}
+
+#slider{
+    margin-left: 5rem;
 }

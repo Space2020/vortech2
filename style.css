@@ -496,5 +496,6 @@ footer{
 #slide img{
   width: 250px;
   height: 200px;
+  margin-right: 5px;
   }
 }

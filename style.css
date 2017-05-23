@@ -260,7 +260,7 @@ span img{
 /** 3rd Page **/
 /** Projects Page **/
 
-.slider{
+/*.slider{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -284,7 +284,40 @@ span img{
   width: 40rem;
   height: 30rem;
   margin: 0.50rem 0;
-}
+}*/
+
+15. #slider
+16. {
+17.     width:960px;
+18.     margin-left:200px;
+19.     margin-right:auto;
+20.     background-color:white;
+21.     border-radius:10px;
+22. }
+
+45. #slide
+46. {
+47.     width:960px;
+48.     margin-left:auto;
+49.     margin-right:auto;
+50. }
+51. #slide ul
+52. {
+53.     list-style-type:none;
+54. }
+55. #slide li
+56. {
+57.     float:left;
+58.     width:175px;
+59.     display:block;
+60.     margin-right:50px;
+61.     margin-bottom:50px;
+62. }
+63. img{
+64.     width:200px;
+65.     height:150px;
+66. }
+
 
 
 /** 4th Page**/

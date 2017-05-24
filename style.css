@@ -11,13 +11,15 @@
   }
 
 .navbar-brand img{
-  height: 5rem;
+  max-height: 5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px;
 }
 
-.navbar-inverse{
+.navbar{
   min-height: 7rem;
   width: 100%;
-  background: #000;
 }
 
 
@@ -36,11 +38,11 @@
 .navbar .nav li a:hover{
   color: #fff;
   margin: 0;
-  border-bottom: 1px solid #0000ff;
+  border-bottom: 2px solid #FFF;
 }
 
 .selected{
-  border-bottom: 1px solid #0000ff;
+  border-bottom: 1px solid #FFF;
 }
 
 
@@ -209,13 +211,14 @@ span img{
 /** About Us Page **/
 
 .owners{
+  background-color: #e2e2e2;
   color: #000;
   padding: 2rem 0;
-  margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 .owners h2{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   color: #0000FF;
 }
@@ -237,7 +240,8 @@ span img{
 
 
 .about-us{
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  background-color: #e2e2e2;
 }
 
 .about-us img{
@@ -261,20 +265,31 @@ span img{
 /** Projects Page **/
 
 .gallery-description{
-  background-color: #807f81;
+  background-color: #e2e2e2;
   margin-top: 5rem;
   padding-top: 5rem;
-  color: #000;
+}
+
+.gallery-description h2{
+  font-weight: bold;
+  color: #0000FF;
   font-family: 'Work Sans', sans-serif;
 }
 
 .gallery-description h5{
+  color: #000;
   padding-top: 3rem;
   text-align: center;
 }
 
+.gallery-description p{
+  color: #000;
+}
+
 .gallery{
   background-color: #807f81;
+  background-color: #e2e2e2;
+
 }
 
  #slider{
@@ -317,16 +332,20 @@ span img{
 
 
 .contact{
-  margin-top: 12rem;
+  padding-top: 10rem;
+  background-color: #e2e2e2;
 }
 
 .contact h2{
   font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  color: #0000FF;
 }
 
 .contact-info{
-  margin: 5rem 0 4rem 0;
+  padding: 5rem 0 4rem 0;
   text-align: center;
+  background-color: #e2e2e2;
 }
 
 .contact-info button{
@@ -340,6 +359,7 @@ span img{
   padding: 1.5rem;
   border-radius: 4px;
   margin: 1rem;
+  background-color: #fff;
 }
 
 .address{
@@ -358,6 +378,10 @@ span img{
   font-weight: bold;
 }
 
+.map-address{
+  background-color: rgba(0,0,255,.6);
+}
+
 
 .iframe a{
   margin-top: 5rem;
@@ -365,7 +389,7 @@ span img{
   text-align: center;
   color: #fff;
   font-size: 2rem;
-  background-color: rgba(0,0,255,.6);
+  background-color: rgba(0,0,255,0);
 }
 
 iframe{
@@ -449,7 +473,7 @@ footer{
   }
 
   .nav li a{
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 0;
   }
 
@@ -462,7 +486,7 @@ footer{
   }
 
   .owners{
-    margin-top: 15rem;
+    padding-top: 15rem;
   }
 
   .contact h2{

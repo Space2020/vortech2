@@ -36,12 +36,12 @@
 .navbar .nav li a{
   color: #fff;
   padding-bottom: .80rem;
+  margin-top: 1rem;
 }
 
 
 .navbar .nav li a:hover{
   color: #fff;
-  margin: 0;
   border-bottom: 2px solid #FFF;
 }
 
@@ -139,11 +139,10 @@
 
 
 .areas-covered{
-  margin: 0 0 6rem 0;
   color: #000;
   font-weight: bold;
   background-color: #e2e2e2;
-  padding: 3rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 .areas-covered ul{
@@ -186,7 +185,7 @@ button:hover{
 
 .mission{
   margin-top: -6rem;
-  padding: 5rem 0;
+  padding: 2rem 0 15rem 0;
   background-image: url("./resources/Waha4.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -217,8 +216,11 @@ span img{
 .owners{
   background-color: #e2e2e2;
   color: #000;
-  padding: 2rem 0;
-  padding-top: 10rem;
+  padding: 3rem 0;
+}
+
+.mission{
+  padding-top: 28rem;
 }
 
 .owners h2{
@@ -483,8 +485,8 @@ footer{
     font-size: 2.5rem;
   }
 
-  .owners{
-    padding-top: 15rem;
+  .mission{
+    padding-top: 30rem;
   }
 
   .contact h2{
@@ -503,9 +505,9 @@ footer{
   min-height: 20rem;
 }
 
-.mission{
+/*.mission{
   padding: 8rem 0;
-}
+}*/
 
   .gallery-description{
     margin-top: 9.5rem;

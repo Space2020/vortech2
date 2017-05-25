@@ -10,11 +10,15 @@
     border-radius: 0;
   }
 
+.navbar-brand{
+  padding: 10px 15px;
+}
+
 .navbar-brand img{
-  max-height: 5rem;
+  max-height: 5.2rem;
   background-color: #fff;
-  border-radius: 5px;
-  padding: 2px;
+  border-radius: 2px;
+  padding: 3px;
 }
 
 .navbar{
@@ -448,19 +452,11 @@ footer{
   font-family: 'Roboto', sans-serif;
 }
 
-.fa-twitter-square:hover{
+.fa-twitter-square{
   color: #0000ff;
-  transition: 800ms;
 }
 
 /** Media Queries **/
-
-@media only screen and (min-width: 2000px){
-  .contact-info{
-    margin: 35rem 0 14rem 0;
-  }
-}
-
 
 
 @media only screen and (max-width: 768px){
@@ -486,7 +482,7 @@ footer{
   }
 
   .owners{
-    padding-top: 15rem;
+    margin-top: 15rem;
   }
 
   .contact h2{

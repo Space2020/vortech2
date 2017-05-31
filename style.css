@@ -181,7 +181,8 @@ button:hover{
   box-shadow: 4px 4px 4px #000;
 }
 
-/* Mission Section */
+/** 2nd Page **/
+/** About Us Page **/
 
 .mission{
   margin-top: -6rem;
@@ -196,13 +197,12 @@ button:hover{
   background-color: rgba(0,0,255,.6);
   border-radius: 4px;
   color: #fff;
-  padding: 2rem;
+  padding: 1rem 0;
+  height: 22rem;
+  margin: 1rem;
 }
 
 .mission p{
-  font-size: 1.7rem;
-  font-family: 'Work Sans', sans-serif;
-  line-height: 2;
   margin: 2rem;
 }
 
@@ -210,17 +210,69 @@ span img{
   height: 4rem;
 }
 
-/** 2nd Page **/
-/** About Us Page **/
+.mission{
+  padding-top: 28rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.large{
+  min-height: 35rem;
+  padding-right: 2rem;
+}
+
+.small{
+  min-height: 20rem;
+}
+
+.mission p, .mission li{
+  font-size: 1.5rem;
+}
+
+.mission span{
+  text-decoration: underline;
+}
+
+.mission h3{
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.involvement{
+  font-family: 'Work Sans', sans-serif;
+  padding: 2rem 0 1rem 0;
+  background-color: #7F7E80;
+  color: #fff;
+}
+
+.involvement h3{
+  font-weight: bold;
+}
+
+.involvement h5{
+  line-height: 1.7;
+}
+
+.partners{
+  font-family: 'Work Sans', sans-serif;
+  padding: 1rem 0 2rem 0;
+  background-color: #7F7E80;
+  color: #fff;
+}
+
+.partners h3{
+  font-weight: bold;
+}
+
+.partners h5{
+  line-height: 1.7;
+}
+
 
 .owners{
   background-color: #e2e2e2;
   color: #000;
   padding: 3rem 0;
-}
-
-.mission{
-  padding-top: 28rem;
 }
 
 .owners h2{
@@ -505,12 +557,20 @@ footer{
   min-height: 20rem;
 }
 
-/*.mission{
-  padding: 8rem 0;
-}*/
-
   .gallery-description{
     margin-top: 9.5rem;
+}
+
+.blue{
+  margin: 1.5rem 0;
+}
+
+.large{
+  min-height: 32rem;
+}
+
+.small{
+  max-height: 15rem;
 }
 
 #slider{

@@ -1,6 +1,6 @@
-
-
-
+*{
+  font-family: 'Work Sans', sans-serif;
+}
 
 
 /*** Navbar Section ***/
@@ -57,7 +57,6 @@
   margin: 8rem 0 1rem 0;
   background-color: #fff;
   color: #000;
-  font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
@@ -74,7 +73,6 @@
 }
 
 .services h1{
-  font-family: 'Work Sans', sans-serif;
   text-align: center;
   font-size: 3.2rem;
   font-weight: bold;
@@ -94,7 +92,6 @@
 .main{
   color: #000;
   padding: 4rem 0;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .main img{
@@ -152,7 +149,6 @@
 .areas-covered li{
   display: inline-block;
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .areas-covered h3{
@@ -217,7 +213,6 @@ span img{
 
 .mission{
   padding-top: 28rem;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .large{
@@ -244,7 +239,6 @@ span img{
 }
 
 .involvement{
-  font-family: 'Work Sans', sans-serif;
   padding: 2rem 0 1rem 0;
   background-color: #7F7E80;
   color: #fff;
@@ -260,7 +254,6 @@ span img{
 }
 
 .partners{
-  font-family: 'Work Sans', sans-serif;
   padding: 1rem 0 2rem 0;
   background-color: #7F7E80;
   color: #fff;
@@ -282,15 +275,21 @@ span img{
 }
 
 .owners h2{
-  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   color: #0000FF;
 }
 
 .owners p{
-  font-family: 'Work Sans', sans-serif;
-  line-height: 1.7;
+  line-height: 2.5;
   max-width: 50rem;
+}
+
+.owners img{
+  max-height: 30rem;
+  max-width: 38rem;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
 }
 
 .separate{
@@ -318,7 +317,6 @@ span img{
 }
 
 .about-us p{
-  font-family: 'Work Sans', sans-serif;
   line-height: 1.7;
   font-size: 1.4rem;
   text-align: left;
@@ -337,7 +335,6 @@ span img{
 .gallery-description h2{
   font-weight: bold;
   color: #0000FF;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .gallery-description h5{
@@ -403,7 +400,6 @@ span img{
 
 .contact h2{
   font-weight: bold;
-  font-family: 'Work Sans', sans-serif;
   color: #0000FF;
 }
 
@@ -420,7 +416,6 @@ span img{
 }
 
 .ind-contact{
-  font-family: 'Work Sans', sans-serif;
   border: 2px solid #0000ff;
   padding: 1.5rem;
   border-radius: 4px;
